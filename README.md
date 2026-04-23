@@ -37,7 +37,13 @@ Pude obtener la salida esperada del laboratorio usando los argumentos sep="***" 
 - reemplaza algunas de las comillas con apóstrofes; observa lo que sucede con cuidado.
 
 # 4. Literales de Python - Cadenas
-
+<img width="1165" height="816" alt="Captura de pantalla 2026-04-22 194919" src="https://github.com/user-attachments/assets/8d2fdd6b-4273-4690-9715-8463f00de794" />
+<img width="437" height="842" alt="Captura de pantalla 2026-04-22 195954" src="https://github.com/user-attachments/assets/0506eb75-a3c8-47d3-be9d-d838bba0fb37" />
+<img width="317" height="855" alt="Captura de pantalla 2026-04-22 200414" src="https://github.com/user-attachments/assets/efa73236-a562-44b2-a842-4757cc27a0a4" />
+<img width="1398" height="735" alt="Captura de pantalla 2026-04-22 200546" src="https://github.com/user-attachments/assets/c944ff80-eb7c-4710-8b40-3595cd39a9b4" />
+<img width="1516" height="732" alt="Captura de pantalla 2026-04-22 200610" src="https://github.com/user-attachments/assets/04108d7c-b176-44af-8e58-af5c78211781" />
+<img width="380" height="835" alt="Captura de pantalla 2026-04-22 200711" src="https://github.com/user-attachments/assets/bf36dd0c-0962-4de9-b8ea-11f6a1f289e6" />
+<img width="415" height="829" alt="Captura de pantalla 2026-04-22 201025" src="https://github.com/user-attachments/assets/ba03d76b-089c-4e89-987a-03328fac08d1" />
 
 
 # 5. Ejercicios de Operadores, Matematicos
@@ -468,11 +474,20 @@ Pude obtener la salida esperada del laboratorio usando los argumentos sep="***" 
 
 # 6. Variables
 
+<img width="940" height="442" alt="Screenshot 2026-04-23 143258" src="https://github.com/user-attachments/assets/289716a3-ad52-4bbb-937a-76bca08a4c43" />
+<img width="1026" height="353" alt="Screenshot 2026-04-23 145455" src="https://github.com/user-attachments/assets/b591a48e-080d-4a1e-8376-7181a3dc6c90" />
+<img width="430" height="578" alt="Screenshot 2026-04-23 150914" src="https://github.com/user-attachments/assets/0c4405ca-916f-4132-966e-811b234d3d2b" />
 
 # 7. Variables: un convertidor simple
-
+<img width="773" height="550" alt="Screenshot 2026-04-23 170003" src="https://github.com/user-attachments/assets/16a97f62-48a8-4fcb-8f48-0107f0cf88da" />
+<img width="793" height="440" alt="Screenshot 2026-04-23 170523" src="https://github.com/user-attachments/assets/10b512ed-5f29-4a55-9d0c-c12035fc3bf8" />
 
 # 8. Operadores y expresiones
+<img width="791" height="529" alt="Screenshot 2026-04-23 172156" src="https://github.com/user-attachments/assets/ccf341eb-aa45-42e5-ad0c-192cf919aed2" />
+
+# 9. Puntaje final jugador
+<img width="713" height="376" alt="Screenshot 2026-04-23 181243" src="https://github.com/user-attachments/assets/3d546502-d243-469f-a928-a5b918ae1bc9" />
+
 
 
 

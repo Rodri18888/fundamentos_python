@@ -36,6 +36,21 @@ Pude obtener la salida esperada del laboratorio usando los argumentos sep="***" 
 
 - reemplaza algunas de las comillas con apóstrofes; observa lo que sucede con cuidado.
 
+# 4. Literales de Python - Cadenas
+
+
+
+# 5. Ejercicios de Operadores, Matematicos
+
+
+
+# 6. Variables
+
+
+# 7. Variables: un convertidor simple
+
+
+# 8. Operadores y expresiones
 
 
 

@@ -42,6 +42,428 @@ Pude obtener la salida esperada del laboratorio usando los argumentos sep="***" 
 
 # 5. Ejercicios de Operadores, Matematicos
 
+### Ejercicio 1
+
+**Expresión:**
+
+`5 + 3 * 2`
+
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+
+### Solucion y Explicacion
+
+**Expresión:**
+
+`5 + 3 * 2`
+
+**Paso a paso:**
+
+1. **Identificar las operaciones y su prioridad:**
+    - Suma (`+`)
+    - Multiplicación ()
+    
+    La multiplicación tiene mayor prioridad que la suma.
+    
+2. **Realizar la multiplicación primero:**
+    - `3 * 2 = 6`
+3. **Realizar la suma:**
+    - `5 + 6 = 11`
+
+**Resultado final:**
+
+`11`
+
+---
+
+### Ejercicio 2
+ 
+**Expresión:**
+`8 / 2 + 4 * 3`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`8 / 2 + 4 * 3`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - División (`/`)
+   - Multiplicación (`*`)
+   - Suma (`+`)
+   División y multiplicación tienen la misma prioridad, y mayor que la suma. Cuando dos operadores tienen la misma prioridad, Python los evalúa de **izquierda a derecha**.
+2. **Realizar la división primero (está más a la izquierda):**
+   - `8 / 2 = 4.0` *(en Python, `/` siempre devuelve float)*
+3. **Realizar la multiplicación:**
+   - `4 * 3 = 12`
+4. **Realizar la suma:**
+   - `4.0 + 12 = 16.0`
+**Resultado final:**
+`16.0`
+ 
+---
+ 
+### Ejercicio 3
+ 
+**Expresión:**
+`(7 + 3) * 2 - 5`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`(7 + 3) * 2 - 5`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Paréntesis (`()`)
+   - Multiplicación (`*`)
+   - Resta (`-`)
+   Los paréntesis tienen la mayor prioridad de todas.
+2. **Resolver el paréntesis:**
+   - `7 + 3 = 10`
+3. **Realizar la multiplicación:**
+   - `10 * 2 = 20`
+4. **Realizar la resta:**
+   - `20 - 5 = 15`
+**Resultado final:**
+`15`
+ 
+---
+ 
+### Ejercicio 4
+ 
+**Expresión:**
+`10 - 4 + 2 * 3`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`10 - 4 + 2 * 3`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Multiplicación (`*`)
+   - Resta (`-`) y Suma (`+`)
+   La multiplicación va primero. Resta y suma tienen la misma prioridad, se evalúan de izquierda a derecha.
+2. **Realizar la multiplicación:**
+   - `2 * 3 = 6`
+3. **Resolver de izquierda a derecha:**
+   - `10 - 4 = 6`
+   - `6 + 6 = 12`
+**Resultado final:**
+`12`
+ 
+---
+ 
+### Ejercicio 5
+ 
+**Expresión:**
+`(10 / 2) * (3 + 2) - 4`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`(10 / 2) * (3 + 2) - 4`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Paréntesis (`()`)
+   - Multiplicación (`*`)
+   - Resta (`-`)
+2. **Resolver los paréntesis (de izquierda a derecha):**
+   - `10 / 2 = 5.0`
+   - `3 + 2 = 5`
+3. **Realizar la multiplicación:**
+   - `5.0 * 5 = 25.0`
+4. **Realizar la resta:**
+   - `25.0 - 4 = 21.0`
+**Resultado final:**
+`21.0`
+ 
+---
+ 
+### Ejercicio 6
+ 
+**Expresión:**
+`2 + 3 * (4 - 1)`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`2 + 3 * (4 - 1)`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Paréntesis (`()`)
+   - Multiplicación (`*`)
+   - Suma (`+`)
+2. **Resolver el paréntesis:**
+   - `4 - 1 = 3`
+3. **Realizar la multiplicación:**
+   - `3 * 3 = 9`
+4. **Realizar la suma:**
+   - `2 + 9 = 11`
+**Resultado final:**
+`11`
+ 
+---
+ 
+### Ejercicio 7
+ 
+**Expresión:**
+`5 * 2 ** 3`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`5 * 2 ** 3`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Potencia (`**`)
+   - Multiplicación (`*`)
+   La potencia tiene mayor prioridad que la multiplicación. Es el operador con mayor precedencia entre los aritméticos.
+2. **Realizar la potencia:**
+   - `2 ** 3 = 8`
+3. **Realizar la multiplicación:**
+   - `5 * 8 = 40`
+**Resultado final:**
+`40`
+ 
+---
+ 
+### Ejercicio 8
+ 
+**Expresión:**
+`6 + 4 / 2 ** 2`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`6 + 4 / 2 ** 2`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Potencia (`**`) — mayor prioridad
+   - División (`/`)
+   - Suma (`+`)
+2. **Realizar la potencia:**
+   - `2 ** 2 = 4`
+3. **Realizar la división:**
+   - `4 / 4 = 1.0`
+4. **Realizar la suma:**
+   - `6 + 1.0 = 7.0`
+**Resultado final:**
+`7.0`
+ 
+---
+ 
+### Ejercicio 9
+ 
+**Expresión:**
+`10 % 3 + 2 * 5`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`10 % 3 + 2 * 5`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Módulo (`%`) y Multiplicación (`*`) — misma prioridad, mayor que la suma
+   - Suma (`+`)
+   El operador `%` devuelve el **residuo** de una división entera.
+2. **Resolver módulo y multiplicación de izquierda a derecha:**
+   - `10 % 3 = 1` *(10 dividido entre 3 es 3 con residuo 1)*
+   - `2 * 5 = 10`
+3. **Realizar la suma:**
+   - `1 + 10 = 11`
+**Resultado final:**
+`11`
+ 
+---
+ 
+### Ejercicio 10
+ 
+**Expresión:**
+`(8 + 2) * 3 ** 2`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`(8 + 2) * 3 ** 2`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Paréntesis (`()`)
+   - Potencia (`**`)
+   - Multiplicación (`*`)
+2. **Resolver el paréntesis:**
+   - `8 + 2 = 10`
+3. **Realizar la potencia:**
+   - `3 ** 2 = 9`
+4. **Realizar la multiplicación:**
+   - `10 * 9 = 90`
+**Resultado final:**
+`90`
+ 
+---
+ 
+### Ejercicio 11
+ 
+**Expresión:**
+`7 + 2 * (3 + 5) / 4`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`7 + 2 * (3 + 5) / 4`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Paréntesis (`()`)
+   - Multiplicación (`*`) y División (`/`) — misma prioridad
+   - Suma (`+`)
+2. **Resolver el paréntesis:**
+   - `3 + 5 = 8`
+3. **Resolver multiplicación y división de izquierda a derecha:**
+   - `2 * 8 = 16`
+   - `16 / 4 = 4.0`
+4. **Realizar la suma:**
+   - `7 + 4.0 = 11.0`
+**Resultado final:**
+`11.0`
+ 
+---
+ 
+### Ejercicio 12
+ 
+**Expresión:**
+`2 ** 3 * 4 / 2`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`2 ** 3 * 4 / 2`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Potencia (`**`)
+   - Multiplicación (`*`) y División (`/`) — misma prioridad, izquierda a derecha
+2. **Realizar la potencia:**
+   - `2 ** 3 = 8`
+3. **Resolver multiplicación y división de izquierda a derecha:**
+   - `8 * 4 = 32`
+   - `32 / 2 = 16.0`
+**Resultado final:**
+`16.0`
+ 
+---
+ 
+### Ejercicio 13
+ 
+**Expresión:**
+`9 - 6 + 3 ** 2`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`9 - 6 + 3 ** 2`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Potencia (`**`)
+   - Resta (`-`) y Suma (`+`) — misma prioridad, izquierda a derecha
+2. **Realizar la potencia:**
+   - `3 ** 2 = 9`
+3. **Resolver resta y suma de izquierda a derecha:**
+   - `9 - 6 = 3`
+   - `3 + 9 = 12`
+**Resultado final:**
+`12`
+ 
+---
+ 
+### Ejercicio 14
+ 
+**Expresión:**
+`(7 - 2) * 5 + 3 ** 2`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`(7 - 2) * 5 + 3 ** 2`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Paréntesis (`()`)
+   - Potencia (`**`)
+   - Multiplicación (`*`)
+   - Suma (`+`)
+2. **Resolver el paréntesis:**
+   - `7 - 2 = 5`
+3. **Realizar la potencia:**
+   - `3 ** 2 = 9`
+4. **Realizar la multiplicación:**
+   - `5 * 5 = 25`
+5. **Realizar la suma:**
+   - `25 + 9 = 34`
+**Resultado final:**
+`34`
+ 
+---
+ 
+### Ejercicio 15
+ 
+**Expresión:**
+`4 * 2 ** 3 / 8 + 1`
+ 
+- **Pregunta:** ¿Cuál es el resultado? ¿Por qué?
+### Solución y Explicación
+ 
+**Expresión:**
+`4 * 2 ** 3 / 8 + 1`
+ 
+**Paso a paso:**
+ 
+1. **Identificar las operaciones y su prioridad:**
+   - Potencia (`**`)
+   - Multiplicación (`*`) y División (`/`) — misma prioridad, izquierda a derecha
+   - Suma (`+`)
+2. **Realizar la potencia:**
+   - `2 ** 3 = 8`
+3. **Resolver multiplicación y división de izquierda a derecha:**
+   - `4 * 8 = 32`
+   - `32 / 8 = 4.0`
+4. **Realizar la suma:**
+   - `4.0 + 1 = 5.0`
+**Resultado final:**
+`5.0`
 
 
 # 6. Variables
